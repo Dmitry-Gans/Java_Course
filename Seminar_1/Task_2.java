@@ -6,9 +6,7 @@ package Seminar_1;
 
 public class Task_2 {
     public static void main(String[] args){
-        Task_2();
-    }
-
+    
     int[] arrr = {1,1,0,1,1,1};
     int maxOnes = 0;
     int temp = 0;
@@ -25,6 +23,7 @@ public class Task_2 {
         maxOnes = temp;
     }
     System.out.println(maxOnes);
+    }
 }
 
 // static void task1(){
