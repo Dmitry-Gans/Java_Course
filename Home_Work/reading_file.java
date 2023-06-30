@@ -3,7 +3,7 @@ import java.io.*;
 
 public class reading_file {
     // Считывание строк с файла
-    public static String [] ReadLineFromFile(String pathway) throws Exception {
+    public static String[] ReadLineFromFile(String pathway) throws Exception {
         BufferedReader br = new BufferedReader(new FileReader(pathway));
         String str;
         int size = 0;
@@ -30,7 +30,7 @@ public class reading_file {
         }
         System.out.print(arr[arr.length-1]);
     }
-    
+    // Печать массива строк
     public static void printArraeString(String [] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);

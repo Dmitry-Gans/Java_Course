@@ -1,7 +1,8 @@
 package Home_Work;
 
 public class Task_5 {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception{// Предупреждаем с помощью throws,
+    // что метод может выбросить исключение
 // Дана строка sql-запроса "select * from students where ".
 // Сформируйте часть WHERE этого запроса, используя StringBuilder. 
 // Данные для фильтрации приведены ниже в виде json-строки.
