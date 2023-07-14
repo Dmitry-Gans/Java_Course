@@ -51,12 +51,12 @@ public class Task_9 {
         }
     };
 
-    sortedPrint(telephonBookMap);
+    sortedBook(telephonBookMap);
 
     }
 
     // Метод обратной сортровки
-    static void sortedPrint(Map<String, ArrayList> map) {
+    static void sortedBook(Map<String, ArrayList> map) {
         Set<String> keySet = map.keySet(); // Заполняем Set ключами из вложенной Map
         int maxCount = 0;
         int minCount = 1_000_000;
