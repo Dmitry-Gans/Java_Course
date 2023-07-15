@@ -25,9 +25,9 @@ public class Task_10 {
             Integer ram = sc.nextInt();
             if(ram >=32){
                 System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
-            }else if(ram < 32){
+            }else if(ram > 16 & ram < 32 ){
                 System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-            }else if(ram < 16 ){
+            }else if(ram > 4 & ram < 16 ){
                 System.out.printf(l1.toString() + "\n" + l2.toString());
             }else if(ram < 4){
                 System.out.printf(l1.toString());
@@ -39,9 +39,9 @@ public class Task_10 {
             Integer ssd = sc.nextInt();
             if(ssd >=512){
                   System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
-            }else if(ssd < 512){
+            }else if(ssd > 256 $ ssd < 512){
                 System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-            }else if(ssd < 256){
+            }else if(ssd > 128 $ ssd < 256){
                 System.out.printf(l1.toString() + "\n" + l2.toString());
             }else if(ssd < 128){
                 System.out.printf(l1.toString());
